@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="panel-transparency">
+  <schema id="org.gnome.shell.extensions.panel-transparency" path="/org/gnome/shell/extensions/panel-transparency/">
+    <key name="activate-mode" type="s">
+      <choices>
+        <choice value="open"/>
+        <choice value="all"/>
+        <choice value="none"/>
+      </choices>
+      <default>'open'</default>
+      <summary>新窗口激活模式</summary>
+      <description>
+        open: 新窗口请求时直接激活到前台，忽略闪烁提醒（推荐）；
+        all: 所有请求注意力的窗口均激活到前台；
+        none: 仅静音通知，不激活窗口到前台。
+      </description>
+    </key>
+
+    <key name="panel-opacity" type="i">
+      <range min="0" max="100"/>
+      <default>45</default>
+      <summary>顶栏不透明度百分比</summary>
+      <description>0 为全透明，100 为完全不透明，默认 45%。</description>
+    </key>
+
+    <key name="text-shadow" type="b">
+      <default>false</default>
+      <summary>文字阴影增强</summary>
+      <description>为顶栏文字增加一层黑色微弱投影，在浅色壁纸下更加清晰易读。</description>
+    </key>
+  </schema>
+</schemalist>

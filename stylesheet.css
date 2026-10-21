@@ -1,0 +1,119 @@
+/* 顶栏透明度与外观样式表
+ * 基础颜色采用 Ubuntu Yaru 深色顶栏原本的 #131313，保持色相不变。
+ * 针对 #panel 和 #panel:overview 覆盖主题样式规则。
+ */
+
+#panel,
+#panel:overview {
+  background-color: rgba(19, 19, 19, 0.45) !important;
+  transition-duration: 250ms;
+}
+
+/* 文字阴影增强样式 */
+#panel.panel-text-shadow .panel-button {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* 动态透明度样式规则 (0% 到 100%) */
+
+#panel.panel-opacity-0, #panel.panel-opacity-0:overview { background-color: rgba(19, 19, 19, 0.0) !important; }
+#panel.panel-opacity-1, #panel.panel-opacity-1:overview { background-color: rgba(19, 19, 19, 0.01) !important; }
+#panel.panel-opacity-2, #panel.panel-opacity-2:overview { background-color: rgba(19, 19, 19, 0.02) !important; }
+#panel.panel-opacity-3, #panel.panel-opacity-3:overview { background-color: rgba(19, 19, 19, 0.03) !important; }
+#panel.panel-opacity-4, #panel.panel-opacity-4:overview { background-color: rgba(19, 19, 19, 0.04) !important; }
+#panel.panel-opacity-5, #panel.panel-opacity-5:overview { background-color: rgba(19, 19, 19, 0.05) !important; }
+#panel.panel-opacity-6, #panel.panel-opacity-6:overview { background-color: rgba(19, 19, 19, 0.06) !important; }
+#panel.panel-opacity-7, #panel.panel-opacity-7:overview { background-color: rgba(19, 19, 19, 0.07) !important; }
+#panel.panel-opacity-8, #panel.panel-opacity-8:overview { background-color: rgba(19, 19, 19, 0.08) !important; }
+#panel.panel-opacity-9, #panel.panel-opacity-9:overview { background-color: rgba(19, 19, 19, 0.09) !important; }
+#panel.panel-opacity-10, #panel.panel-opacity-10:overview { background-color: rgba(19, 19, 19, 0.1) !important; }
+#panel.panel-opacity-11, #panel.panel-opacity-11:overview { background-color: rgba(19, 19, 19, 0.11) !important; }
+#panel.panel-opacity-12, #panel.panel-opacity-12:overview { background-color: rgba(19, 19, 19, 0.12) !important; }
+#panel.panel-opacity-13, #panel.panel-opacity-13:overview { background-color: rgba(19, 19, 19, 0.13) !important; }
+#panel.panel-opacity-14, #panel.panel-opacity-14:overview { background-color: rgba(19, 19, 19, 0.14) !important; }
+#panel.panel-opacity-15, #panel.panel-opacity-15:overview { background-color: rgba(19, 19, 19, 0.15) !important; }
+#panel.panel-opacity-16, #panel.panel-opacity-16:overview { background-color: rgba(19, 19, 19, 0.16) !important; }
+#panel.panel-opacity-17, #panel.panel-opacity-17:overview { background-color: rgba(19, 19, 19, 0.17) !important; }
+#panel.panel-opacity-18, #panel.panel-opacity-18:overview { background-color: rgba(19, 19, 19, 0.18) !important; }
+#panel.panel-opacity-19, #panel.panel-opacity-19:overview { background-color: rgba(19, 19, 19, 0.19) !important; }
+#panel.panel-opacity-20, #panel.panel-opacity-20:overview { background-color: rgba(19, 19, 19, 0.2) !important; }
+#panel.panel-opacity-21, #panel.panel-opacity-21:overview { background-color: rgba(19, 19, 19, 0.21) !important; }
+#panel.panel-opacity-22, #panel.panel-opacity-22:overview { background-color: rgba(19, 19, 19, 0.22) !important; }
+#panel.panel-opacity-23, #panel.panel-opacity-23:overview { background-color: rgba(19, 19, 19, 0.23) !important; }
+#panel.panel-opacity-24, #panel.panel-opacity-24:overview { background-color: rgba(19, 19, 19, 0.24) !important; }
+#panel.panel-opacity-25, #panel.panel-opacity-25:overview { background-color: rgba(19, 19, 19, 0.25) !important; }
+#panel.panel-opacity-26, #panel.panel-opacity-26:overview { background-color: rgba(19, 19, 19, 0.26) !important; }
+#panel.panel-opacity-27, #panel.panel-opacity-27:overview { background-color: rgba(19, 19, 19, 0.27) !important; }
+#panel.panel-opacity-28, #panel.panel-opacity-28:overview { background-color: rgba(19, 19, 19, 0.28) !important; }
+#panel.panel-opacity-29, #panel.panel-opacity-29:overview { background-color: rgba(19, 19, 19, 0.29) !important; }
+#panel.panel-opacity-30, #panel.panel-opacity-30:overview { background-color: rgba(19, 19, 19, 0.3) !important; }
+#panel.panel-opacity-31, #panel.panel-opacity-31:overview { background-color: rgba(19, 19, 19, 0.31) !important; }
+#panel.panel-opacity-32, #panel.panel-opacity-32:overview { background-color: rgba(19, 19, 19, 0.32) !important; }
+#panel.panel-opacity-33, #panel.panel-opacity-33:overview { background-color: rgba(19, 19, 19, 0.33) !important; }
+#panel.panel-opacity-34, #panel.panel-opacity-34:overview { background-color: rgba(19, 19, 19, 0.34) !important; }
+#panel.panel-opacity-35, #panel.panel-opacity-35:overview { background-color: rgba(19, 19, 19, 0.35) !important; }
+#panel.panel-opacity-36, #panel.panel-opacity-36:overview { background-color: rgba(19, 19, 19, 0.36) !important; }
+#panel.panel-opacity-37, #panel.panel-opacity-37:overview { background-color: rgba(19, 19, 19, 0.37) !important; }
+#panel.panel-opacity-38, #panel.panel-opacity-38:overview { background-color: rgba(19, 19, 19, 0.38) !important; }
+#panel.panel-opacity-39, #panel.panel-opacity-39:overview { background-color: rgba(19, 19, 19, 0.39) !important; }
+#panel.panel-opacity-40, #panel.panel-opacity-40:overview { background-color: rgba(19, 19, 19, 0.4) !important; }
+#panel.panel-opacity-41, #panel.panel-opacity-41:overview { background-color: rgba(19, 19, 19, 0.41) !important; }
+#panel.panel-opacity-42, #panel.panel-opacity-42:overview { background-color: rgba(19, 19, 19, 0.42) !important; }
+#panel.panel-opacity-43, #panel.panel-opacity-43:overview { background-color: rgba(19, 19, 19, 0.43) !important; }
+#panel.panel-opacity-44, #panel.panel-opacity-44:overview { background-color: rgba(19, 19, 19, 0.44) !important; }
+#panel.panel-opacity-45, #panel.panel-opacity-45:overview { background-color: rgba(19, 19, 19, 0.45) !important; }
+#panel.panel-opacity-46, #panel.panel-opacity-46:overview { background-color: rgba(19, 19, 19, 0.46) !important; }
+#panel.panel-opacity-47, #panel.panel-opacity-47:overview { background-color: rgba(19, 19, 19, 0.47) !important; }
+#panel.panel-opacity-48, #panel.panel-opacity-48:overview { background-color: rgba(19, 19, 19, 0.48) !important; }
+#panel.panel-opacity-49, #panel.panel-opacity-49:overview { background-color: rgba(19, 19, 19, 0.49) !important; }
+#panel.panel-opacity-50, #panel.panel-opacity-50:overview { background-color: rgba(19, 19, 19, 0.5) !important; }
+#panel.panel-opacity-51, #panel.panel-opacity-51:overview { background-color: rgba(19, 19, 19, 0.51) !important; }
+#panel.panel-opacity-52, #panel.panel-opacity-52:overview { background-color: rgba(19, 19, 19, 0.52) !important; }
+#panel.panel-opacity-53, #panel.panel-opacity-53:overview { background-color: rgba(19, 19, 19, 0.53) !important; }
+#panel.panel-opacity-54, #panel.panel-opacity-54:overview { background-color: rgba(19, 19, 19, 0.54) !important; }
+#panel.panel-opacity-55, #panel.panel-opacity-55:overview { background-color: rgba(19, 19, 19, 0.55) !important; }
+#panel.panel-opacity-56, #panel.panel-opacity-56:overview { background-color: rgba(19, 19, 19, 0.56) !important; }
+#panel.panel-opacity-57, #panel.panel-opacity-57:overview { background-color: rgba(19, 19, 19, 0.57) !important; }
+#panel.panel-opacity-58, #panel.panel-opacity-58:overview { background-color: rgba(19, 19, 19, 0.58) !important; }
+#panel.panel-opacity-59, #panel.panel-opacity-59:overview { background-color: rgba(19, 19, 19, 0.59) !important; }
+#panel.panel-opacity-60, #panel.panel-opacity-60:overview { background-color: rgba(19, 19, 19, 0.6) !important; }
+#panel.panel-opacity-61, #panel.panel-opacity-61:overview { background-color: rgba(19, 19, 19, 0.61) !important; }
+#panel.panel-opacity-62, #panel.panel-opacity-62:overview { background-color: rgba(19, 19, 19, 0.62) !important; }
+#panel.panel-opacity-63, #panel.panel-opacity-63:overview { background-color: rgba(19, 19, 19, 0.63) !important; }
+#panel.panel-opacity-64, #panel.panel-opacity-64:overview { background-color: rgba(19, 19, 19, 0.64) !important; }
+#panel.panel-opacity-65, #panel.panel-opacity-65:overview { background-color: rgba(19, 19, 19, 0.65) !important; }
+#panel.panel-opacity-66, #panel.panel-opacity-66:overview { background-color: rgba(19, 19, 19, 0.66) !important; }
+#panel.panel-opacity-67, #panel.panel-opacity-67:overview { background-color: rgba(19, 19, 19, 0.67) !important; }
+#panel.panel-opacity-68, #panel.panel-opacity-68:overview { background-color: rgba(19, 19, 19, 0.68) !important; }
+#panel.panel-opacity-69, #panel.panel-opacity-69:overview { background-color: rgba(19, 19, 19, 0.69) !important; }
+#panel.panel-opacity-70, #panel.panel-opacity-70:overview { background-color: rgba(19, 19, 19, 0.7) !important; }
+#panel.panel-opacity-71, #panel.panel-opacity-71:overview { background-color: rgba(19, 19, 19, 0.71) !important; }
+#panel.panel-opacity-72, #panel.panel-opacity-72:overview { background-color: rgba(19, 19, 19, 0.72) !important; }
+#panel.panel-opacity-73, #panel.panel-opacity-73:overview { background-color: rgba(19, 19, 19, 0.73) !important; }
+#panel.panel-opacity-74, #panel.panel-opacity-74:overview { background-color: rgba(19, 19, 19, 0.74) !important; }
+#panel.panel-opacity-75, #panel.panel-opacity-75:overview { background-color: rgba(19, 19, 19, 0.75) !important; }
+#panel.panel-opacity-76, #panel.panel-opacity-76:overview { background-color: rgba(19, 19, 19, 0.76) !important; }
+#panel.panel-opacity-77, #panel.panel-opacity-77:overview { background-color: rgba(19, 19, 19, 0.77) !important; }
+#panel.panel-opacity-78, #panel.panel-opacity-78:overview { background-color: rgba(19, 19, 19, 0.78) !important; }
+#panel.panel-opacity-79, #panel.panel-opacity-79:overview { background-color: rgba(19, 19, 19, 0.79) !important; }
+#panel.panel-opacity-80, #panel.panel-opacity-80:overview { background-color: rgba(19, 19, 19, 0.8) !important; }
+#panel.panel-opacity-81, #panel.panel-opacity-81:overview { background-color: rgba(19, 19, 19, 0.81) !important; }
+#panel.panel-opacity-82, #panel.panel-opacity-82:overview { background-color: rgba(19, 19, 19, 0.82) !important; }
+#panel.panel-opacity-83, #panel.panel-opacity-83:overview { background-color: rgba(19, 19, 19, 0.83) !important; }
+#panel.panel-opacity-84, #panel.panel-opacity-84:overview { background-color: rgba(19, 19, 19, 0.84) !important; }
+#panel.panel-opacity-85, #panel.panel-opacity-85:overview { background-color: rgba(19, 19, 19, 0.85) !important; }
+#panel.panel-opacity-86, #panel.panel-opacity-86:overview { background-color: rgba(19, 19, 19, 0.86) !important; }
+#panel.panel-opacity-87, #panel.panel-opacity-87:overview { background-color: rgba(19, 19, 19, 0.87) !important; }
+#panel.panel-opacity-88, #panel.panel-opacity-88:overview { background-color: rgba(19, 19, 19, 0.88) !important; }
+#panel.panel-opacity-89, #panel.panel-opacity-89:overview { background-color: rgba(19, 19, 19, 0.89) !important; }
+#panel.panel-opacity-90, #panel.panel-opacity-90:overview { background-color: rgba(19, 19, 19, 0.9) !important; }
+#panel.panel-opacity-91, #panel.panel-opacity-91:overview { background-color: rgba(19, 19, 19, 0.91) !important; }
+#panel.panel-opacity-92, #panel.panel-opacity-92:overview { background-color: rgba(19, 19, 19, 0.92) !important; }
+#panel.panel-opacity-93, #panel.panel-opacity-93:overview { background-color: rgba(19, 19, 19, 0.93) !important; }
+#panel.panel-opacity-94, #panel.panel-opacity-94:overview { background-color: rgba(19, 19, 19, 0.94) !important; }
+#panel.panel-opacity-95, #panel.panel-opacity-95:overview { background-color: rgba(19, 19, 19, 0.95) !important; }
+#panel.panel-opacity-96, #panel.panel-opacity-96:overview { background-color: rgba(19, 19, 19, 0.96) !important; }
+#panel.panel-opacity-97, #panel.panel-opacity-97:overview { background-color: rgba(19, 19, 19, 0.97) !important; }
+#panel.panel-opacity-98, #panel.panel-opacity-98:overview { background-color: rgba(19, 19, 19, 0.98) !important; }
+#panel.panel-opacity-99, #panel.panel-opacity-99:overview { background-color: rgba(19, 19, 19, 0.99) !important; }
+#panel.panel-opacity-100, #panel.panel-opacity-100:overview { background-color: rgba(19, 19, 19, 1.0) !important; }

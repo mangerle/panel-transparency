@@ -1,0 +1,11 @@
+{
+  "uuid": "panel-transparency@wangle",
+  "name": "Panel Transparency (顶栏透明度与焦点助手)",
+  "description": "调节顶栏透明度与文字阴影，并支持新窗口自动置顶前台、关掉「已就绪」通知。",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.panel-transparency",
+  "url": "https://github.com/mangerle/panel-transparency",
+  "version": 2
+}
